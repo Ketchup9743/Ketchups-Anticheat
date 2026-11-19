@@ -1,0 +1,8 @@
+debug: false
+
+general:
+  prefix: "&6Ketchup &8» "
+
+players:
+  track-java: true
+  track-bedrock: true

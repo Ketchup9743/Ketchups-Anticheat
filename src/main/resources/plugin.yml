@@ -1,0 +1,21 @@
+name: KetchupAntiCheat
+version: '${version}'
+main: dev.ketchup.anticheat.KetchupAntiCheat
+api-version: '26.3'
+
+author: Ketchup
+description: A server-side Minecraft anticheat.
+
+softdepend:
+  - floodgate
+
+commands:
+  kac:
+    description: Ketchup administration
+    usage: /kac
+    permission: kac.admin
+
+permissions:
+  kac.admin:
+    description: Access to Ketchup administration
+    default: op
